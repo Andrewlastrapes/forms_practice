@@ -3,15 +3,73 @@
 <head>
 	<title>Forms practice</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="/Users/andrewlastrapes/Desktop/HTML/forms_practice/forms_practice.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	
 </head>
 <body>
-	
-  <form action="http://localhost:5000">
-	<label>Name</label><input type="text" name="name"><br>
+
+<form action="http://localhost:5000">
+
+<div class="top">
+
+<div class="header">
+<h1>Forms Practice</h1>
+</div>	
+
+<div class="Name_label">	
+    <label>Name</label><input type="text" name="name"><br>
 	<label>Password</label><input type="password" name="password"><br>
 	<input type="submit"><br>
 	<input type="reset">
-  </form>
+   </div>
+</div>
+
+
+<div class="container middle">
+	<div class="rows">
+		<div class="col-md-5">
+		<div class="survey_header">
+			<h2>Survey</h2>
+		</div>
+		<div class="survey_label">
+			<label>Name:  </label><input type="text" name="name"><br><br>
+			<label>Age:  </label><input type="text" name="name"><br><br>
+			<label>Super Hero Powers:  </label><input type="text" name="name"><br><br>
+			
+
+			<label>Cape Size:</label><br><br>
+			<label>Extra Small</label><input type="checkbox" name="">	
+			<label>Small</label><input type="checkbox" name="">
+			<label> Medium</label><input type="checkbox" name="">
+			<label>Large</label><input type="checkbox" name="">
+			<label>Extra Large</label><input type="checkbox" name=""><br><br>
+
+			
+
+			<label>Operating System choice:  </label><input type="text" name="name"><br><br>
+			<label>Bio:</label><br><textarea></textarea><br><br>
+			<label>Tagline:  </label><input type="text" name="name"><br><br>
+			<label>Arch Enemies List:  </label><input type="text" name="name"><br><br>
+			<label>Mascot:  </label><input type="text" name="name"><br><br>
+			<label>Programming Languages: <select name="Programming Langauges">
+			<option>Python</option>
+			<option>JavaScript</option>
+			<option>CSS</option>
+			<option>Java</option>
+			<option>R</option>
+
+
+	<div class="col-md-7">
+		<img src="/Users/andrewlastrapes/Desktop/images/Survey.jpg" width="500" height="500">
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
 
 </body>
+
+</form>
+
 </html>

@@ -1,0 +1,40 @@
+
+
+.top {
+	background-color: #4ABDAC;
+}
+
+.header {
+	padding: 25px 0 25px 10px;
+	color: #F7B733;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.Name_label {
+	display: flex;
+	padding: 50px 0 25px 25px;
+	color: #F7B733;
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+
+.survey_header {
+	padding: 25px 0 25px 10px;
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+
+
+.survey_label {
+	padding: 0 0 100px 25px;
+	font-family: Impact, Charcoal, sans-serif;
+	border: 2px solid black;
+}
+
+.middle {
+	background-color: #DFDCE3;
+	font-family: Impact, Charcoal, sans-serif;
+}
