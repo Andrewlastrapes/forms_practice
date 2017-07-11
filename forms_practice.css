@@ -37,4 +37,9 @@
 .middle {
 	background-color: #DFDCE3;
 	font-family: Impact, Charcoal, sans-serif;
+	border: 2px solid red;
+}
+
+.picture {
+	padding-top: 50px;
 }
